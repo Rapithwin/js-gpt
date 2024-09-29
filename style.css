@@ -46,6 +46,8 @@ body {
     color: #000;
     align-self: flex-start;
     width: 30vw;
+    padding: 1rem;
+    overflow: hidden;
 }
 
 .input-box {

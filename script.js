@@ -33,7 +33,6 @@ function displayMessage(message, sender) {
     chatBox.scrollTop = chatBox.scrollHeight; // Scroll to the bottom of the chat
 }
 
-// API
 async function fetchGPTResponse(prompt) {
     const apiKey = "openai-api-key";
     const apiUrl = "https://api.openai.com/v1/chat/completions";
