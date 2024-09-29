@@ -9,8 +9,8 @@ body {
 }
 
 .chat-container {
-    width: 70vw;
-    height: 90vh;
+    width: 50vw;
+    height: 100vh;
     background-color: #fff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -50,15 +50,21 @@ body {
 .input-box {
     display: flex;
     padding: 10px;
+    width: 80%;
     border-top: 1px solid #ddd;
 }
 
-input[type="text"] {
+
+
+textarea {
     flex: 1;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-right: 10px;
+    width: 100%;
+    max-width: 100%;
+    resize: none;
 }
 
 button {
@@ -68,8 +74,14 @@ button {
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
+    width: 10vw;
+    float: right;
+    
+    align-self: flex-end;
 }
 
 button:hover {
     background-color: #006bbf;
 }
+
+
