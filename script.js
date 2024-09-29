@@ -53,6 +53,7 @@ async function fetchGPTResponse(prompt) {
         const data = await response.json();
         return data.choices[0].message.content;
     } catch (err) {
-        return err;
+        console.log(err);
+        return "Something went wrong with the API call";
     }
 }
