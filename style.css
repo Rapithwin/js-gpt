@@ -38,6 +38,7 @@ body {
     align-self: flex-end;
     float: right;
     width: 30vw;
+    
 }
 
 .message.bot {
@@ -50,8 +51,9 @@ body {
 .input-box {
     display: flex;
     padding: 10px;
-    width: 80%;
     border-top: 1px solid #ddd;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -74,10 +76,8 @@ button {
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
-    width: 10vw;
+    width: 15%;
     float: right;
-    
-    align-self: flex-end;
 }
 
 button:hover {
