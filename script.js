@@ -11,16 +11,10 @@ async function sendMessage() {
     const userInput = document.getElementById("user-input").value;
     if (userInput.trim() === "") return; // Do nothing if input is empty
 
-    // Display the user's message
     displayMessage(userInput, "user");
-
     // Clear the input field
     document.getElementById("user-input").value = "";
-
-    // Fetch GPT response
     const response = await fetchGPTResponse(userInput);
-
-    // Display GPT's response
     displayMessage(response, "bot");
 }
 
